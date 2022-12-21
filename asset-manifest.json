@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/validationFormApp/static/css/main.073c9b0a.css",
-    "main.js": "/validationFormApp/static/js/main.f39d53c2.js",
-    "static/js/787.f9e91d34.chunk.js": "/validationFormApp/static/js/787.f9e91d34.chunk.js",
-    "static/media/logo.svg": "/validationFormApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/validationFormApp/static/css/main.b362891b.css",
+    "main.js": "/validationFormApp/static/js/main.33826986.js",
+    "static/media/RegsterBackgd.jpg": "/validationFormApp/static/media/RegsterBackgd.d2bc746f4f8b777df46c.jpg",
     "index.html": "/validationFormApp/index.html",
-    "main.073c9b0a.css.map": "/validationFormApp/static/css/main.073c9b0a.css.map",
-    "main.f39d53c2.js.map": "/validationFormApp/static/js/main.f39d53c2.js.map",
-    "787.f9e91d34.chunk.js.map": "/validationFormApp/static/js/787.f9e91d34.chunk.js.map"
+    "main.b362891b.css.map": "/validationFormApp/static/css/main.b362891b.css.map",
+    "main.33826986.js.map": "/validationFormApp/static/js/main.33826986.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f39d53c2.js"
+    "static/css/main.b362891b.css",
+    "static/js/main.33826986.js"
   ]
 }
