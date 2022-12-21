@@ -20,7 +20,7 @@ function App() {
       placeholder: "Username",
       errorMessage: "Username should be 6-16 characters and no special characters!",
       label: "Username",
-      pattern: "^[A-Za-zo-9]{6-16}$",
+      pattern: "^[A-Za-z0-9]{6,16}$",
       required: true,
 
     },
@@ -74,10 +74,17 @@ function App() {
       return (
           <div className='app'>
               <form onSubmit={handleSubmit}>
-                  <FormEntry placeholder="Username"/>
-                  <FormEntry placeholder="Email"/>
-                  <FormEntry placeholder="Full name"/>
-                  <FormEntry placeholder="Password"/>
+                  <h1>Registration Form</h1>
+                      {
+                        inputs.map(input => (
+                          <FormEntry
+                            key={input.id}
+                            {...input}
+                            value={values[input.name]}
+                            onChange={onChange}
+                          />
+                        ))
+                      }
                   <button>Submit</button>
               </form>
           </div>
